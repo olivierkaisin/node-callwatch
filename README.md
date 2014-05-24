@@ -1,7 +1,7 @@
 node-callwatch
 ==============
 
-Monitor your application by tracking function calls
+Monitor your application through CloudWatch by tracking function calls.
 
 
 ### How to use
@@ -11,6 +11,7 @@ Monitor your application by tracking function calls
 "use strict";
 
 var callwatch = require("callwatch");
+
 
 callwatch.configure({
   aws: {
@@ -22,7 +23,7 @@ callwatch.configure({
 });
 
 
-// Define a pair of simple functions
+// Define a couple of simple functions
 function sum(a, b)
 {
   return a + b;
@@ -55,3 +56,8 @@ setInterval(function () {
   } 
 }, 1000);
 ```
+
+
+### License
+
+MIT
