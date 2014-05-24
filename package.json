@@ -1,6 +1,6 @@
 {
   "name": "callwatch",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Monitor your application by tracking function calls",
   "main": "cw.js",
   "scripts": {
