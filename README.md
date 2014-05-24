@@ -4,8 +4,7 @@ node-callwatch
 Monitor your application through CloudWatch by tracking function calls.
 
 
-### How to use
-
+## How to use
 
 ```javascript
 "use strict";
@@ -58,6 +57,6 @@ setInterval(function () {
 ```
 
 
-### License
+## License
 
 MIT
