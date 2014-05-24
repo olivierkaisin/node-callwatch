@@ -1,0 +1,21 @@
+{
+  "name": "callwatch",
+  "version": "0.1.2",
+  "description": "Monitor your application by tracking function calls",
+  "main": "cw.js",
+  "scripts": {
+    "test": "npm run mocha",
+    "mocha": "NODE_ENV=test ./node_modules/.bin/mocha --slow 200 -R spec $(find tests -name \"*.spec.js\")"
+  },
+  "author": "Olivier Kaisin",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "~1.2.4",
+    "aws-sdk": "~2.0.0-rc.15",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2"
+  }
+}
