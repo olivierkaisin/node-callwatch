@@ -10,22 +10,19 @@ Monitor your application by tracking function calls
 ```javascript
 "use strict";
 
-
 var callwatch = require("callwatch");
-
 
 callwatch.configure({
   aws: {
     accessKeyId: "",
     secretAccessKey: "",
-    
     region: "us-east-1"
   },
-  
   namespace: "CATEGORY/MyApp"
 });
 
 
+// Define a pair of simple functions
 function sum(a, b)
 {
   return a + b;
@@ -49,7 +46,7 @@ var trackedDiff = callwatch.watchify(diff, {
 });
 
 
-
+// Call functions every 1 sec
 setInterval(function () {
   trackedSum(1, 2);
 
