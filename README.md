@@ -1,4 +1,4 @@
-callwatch
+callwatch [![Build Status](https://travis-ci.org/olivierkaisin/node-callwatch.svg?branch=master)](https://travis-ci.org/olivierkaisin/node-callwatch)
 ==============
 
 Monitor your application through CloudWatch by tracking function calls.
