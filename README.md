@@ -1,4 +1,4 @@
-node-callwatch
+callwatch
 ==============
 
 Monitor your application through CloudWatch by tracking function calls.
